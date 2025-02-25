@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactformulier voor Concerten</title>
+</head>
+<body>
+    <h1>Contacteer ons voor Concerten</h1>
+    <form action="your-server-endpoint" method="POST">
+        <label for="name">Naam:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">E-mailadres:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="subject">Onderwerp:</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+
+        <label for="message">Bericht:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Verzenden</button>
+    </form>
+</body>
+</html>
