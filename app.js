@@ -4,7 +4,6 @@ const express = require("express");
 const expressHandlebars = require("express-handlebars");
 const app = express();
 const bodyParser = require('body-parser');
-const camps = require('./assets/data/camps');
 
 // configure Handlebars view engine
 app.engine("handlebars", expressHandlebars.engine({
@@ -14,19 +13,19 @@ app.engine("handlebars", expressHandlebars.engine({
 }));
 app.set("view engine", "handlebars");
 
-// Home
+// Home door Reinhard
 app.get("/", (req, res) => {
     res.render("Home", { title: 'Jelrjm' });
 });
 
 // festival Logan
 app.get("/Dranouter", (req, res) => {
-    res.render("Camps");
+    res.render("Dranouter");
 });
 
 // festival Edouard
 app.get("/Cactusfestival", (req, res) => {
-    res.render("Lessen");
+    res.render("Cactusfestival");
 });
 
 // festival Matthias
@@ -36,17 +35,12 @@ app.get("/Contact", (req, res) => {
 
 // festival Jelle
 app.get("/Suikerrock", (req, res) => {
-    res.render("Verhuur");
+    res.render("Suikerrock");
 });
 
 // festival Jens
 app.get("/Pukkelpop", (req, res) => {
-    res.render("bedankt");
-});
-
-// festival Reinhard
-app.get("/Home", (req, res) => {
-    res.render("bedankt");
+    res.render("Pukkelpop");
 });
 
 // Serve static files from the 'public' directory
