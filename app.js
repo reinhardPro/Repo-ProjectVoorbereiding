@@ -29,8 +29,12 @@ app.get("/Cactusfestival", (req, res) => {
 });
 
 // festival Matthias
-app.get("/Contact", (req, res) => {
-    res.render("Contact");
+app.get('/contact', (req, res) => {
+    res.render('Contact'); // Render de Contact.hbs
+});
+
+app.post('/dank-je', (req, res) => {
+    res.render('dank-je'); // Render de dank-je.hbs pagina
 });
 
 // festival Jelle
