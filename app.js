@@ -30,7 +30,7 @@ app.get("/Cactusfestival", (req, res) => {
 
 // festival Matthias
 app.get("/Contact", (req, res) => {
-    res.render("Contact", {camps});
+    res.render("Contact");
 });
 
 // festival Jelle
