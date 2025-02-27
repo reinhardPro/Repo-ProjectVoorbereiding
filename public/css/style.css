@@ -192,6 +192,18 @@ body {
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
+
+.heroDranouter{
+  background: url('/img/Dranouter.jpg') no-repeat center center/cover; 
+  height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
 .gallery {
     display: flex;
     justify-content: center;
@@ -294,6 +306,100 @@ button:hover {
   background-color: #1e530d;
 }
 
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*eerste banner*/
+.Banner {
+  padding: 50px 20px;
+  
+
+}
+
+.BannerContent {
+  display: flex;  
+  justify-content: space-between;
+  width: 100vw;
+  background-color: #02b9df;
+  margin-left: calc(-50vw + 50%); /*online gevonden, zorgt dat achtergrond kleur tegen rand scherm plakt = mooier*/
+}
+
+.BannerContent img {
+  width: 50%; 
+  border-radius: 10px;
+}
+
+.text-content {
+  color: #666666;
+}
+
+.BannerContent .text-content {
+  color:#ffffff;
+}
+
+
+
+.text-content h1 {
+  margin-bottom: 8em;
+  width: 100%;
+  margin-left: 1em;
+}
+
+.text-content p {
+  margin-left: 1em;
+}
+
+
+/*Tweede banner*/
+.infoBanner {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  
+}
+
+.infoBanner img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+
+
+
+@media (max-width: 720px) {
+  .BannerContent {
+      flex-direction: column;  
+      text-align: center;  
+  }
+
+  .BannerContent img {
+      width: 100%;  
+      margin-bottom: 20px;
+  }
+
+  .text-content {
+      width: 100%; 
+      text-align: left; 
+  }
+
+  .text-content h1 {
+      margin: 1em;
+      margin-left: 0;
+  }
+
+  .infoBanner {
+      flex-direction: column;
+  }
+
+  .infoBanner img {
+      width: 100%;
+  }
+}
 /*Cactus Festival Edouard*/
 .heroCactus
 {
