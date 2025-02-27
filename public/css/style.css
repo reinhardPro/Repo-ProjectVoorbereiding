@@ -293,3 +293,51 @@ button:hover {
 .thank-you-container a:hover {
   background-color: #1e530d;
 }
+/* Puppelpop pagina */
+
+.pukkelpop-page {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+
+.pukkelpop-page h1 {
+  color: #ff4500;
+  font-size: 36px;
+}
+
+.pukkelpop-page h3 {
+  color: #333;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+
+.pukkelpop-page p {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+.pukkelpop-page .Logo img,
+.pukkelpop-page .pukkelpopsfeer img,
+.pukkelpop-page .stadium-showcase img {
+  width: 80%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+}
+
+
+.pukkelpop-page .Logo,
+.pukkelpop-page .pukkelpopsfeer,
+.pukkelpop-page .stadium-showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
