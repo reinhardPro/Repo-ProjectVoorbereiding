@@ -293,3 +293,15 @@ button:hover {
 .thank-you-container a:hover {
   background-color: #1e530d;
 }
+/**/
+.Suikerrock {
+  background: url('/img/Suikerrock.png') no-repeat center center/cover;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Suikerrockachtergrond
+{
+  background-color: #339213;
+}
