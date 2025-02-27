@@ -426,4 +426,15 @@ body {
   background: #008000;
   color: white;
   border-radius: 5px;
+}/**/
+.Suikerrock {
+  background: url('/img/Suikerrock.png') no-repeat center center/cover;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Suikerrockachtergrond
+{
+  background-color: #339213;
 }
