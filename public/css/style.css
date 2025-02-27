@@ -307,3 +307,17 @@ button:hover {
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
+
+.infoCactus 
+{
+  margin-top: 20px;
+}
+
+.scheduleCactus 
+{
+  margin-top: 20px;
+  padding: 10px;
+  background: #008000;
+  color: white;
+  border-radius: 5px;
+}
